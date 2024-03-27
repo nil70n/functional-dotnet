@@ -59,3 +59,23 @@ public double DecimalRate {
 ## Referential Transparency
 - A function is referentially transparent if it can be replaced with its value without changing the program's behavior
 - Function must be pure and use immutable data structures
+
+## Useful Libraries
+- LanguageExt:
+  - The most complete functional library for C#
+  - GitHub: https://github.com/louthy/language-ext/tree/main
+  - NuGet: https://www.nuget.org/packages/LanguageExt.Core/
+- Curryfy:
+  - A library for currying functions in C#
+  - GitHub: https://github.com/leandromoh/Curryfy
+  - NuGet: https://www.nuget.org/packages/Curryfy/
+- MoreLINQ:
+  - Expands LINQ with utility for Functional Programming
+  - GitHub: https://github.com/morelinq/MoreLINQ
+  - NuGet: https://www.nuget.org/packages/morelinq/
+
+## Concepts to Learn
+- Currying
+- Monads
+- Functors
+- Functional Core / Imperative Shell
